@@ -20,6 +20,7 @@ const (
 	DenaliID  uint32 = 3
 	EverestID uint32 = 4
 	FujiID    uint32 = 5
+	NenupharID uint32 = 123456
 
 	TestnetID  uint32 = FujiID
 	UnitTestID uint32 = 10
@@ -30,6 +31,7 @@ const (
 	DenaliName   = "denali"
 	EverestName  = "everest"
 	FujiName     = "fuji"
+	NenupharName = "nenuphar"
 	TestnetName  = "testnet"
 	UnitTestName = "testing"
 	LocalName    = "local"
@@ -39,6 +41,7 @@ const (
 	DenaliHRP   = "denali"
 	EverestHRP  = "everest"
 	FujiHRP     = "fuji"
+	NenupharHRP = "nenuphar"
 	UnitTestHRP = "testing"
 	LocalHRP    = "local"
 	FallbackHRP = "custom"
@@ -55,6 +58,7 @@ var (
 		DenaliID:   DenaliName,
 		EverestID:  EverestName,
 		FujiID:     FujiName,
+		NenupharID: NenupharName,
 		UnitTestID: UnitTestName,
 		LocalID:    LocalName,
 	}
@@ -64,6 +68,7 @@ var (
 		DenaliName:   DenaliID,
 		EverestName:  EverestID,
 		FujiName:     FujiID,
+		NenupharName: NenupharID,
 		TestnetName:  TestnetID,
 		UnitTestName: UnitTestID,
 		LocalName:    LocalID,
@@ -75,6 +80,7 @@ var (
 		DenaliID:   DenaliHRP,
 		EverestID:  EverestHRP,
 		FujiID:     FujiHRP,
+		NenupharID: NenupharHRP,
 		UnitTestID: UnitTestHRP,
 		LocalID:    LocalHRP,
 	}
@@ -84,6 +90,7 @@ var (
 		DenaliHRP:   DenaliID,
 		EverestHRP:  EverestID,
 		FujiHRP:     FujiID,
+		NenupharHRP: NenupharID,
 		UnitTestHRP: UnitTestID,
 		LocalHRP:    LocalID,
 	}
